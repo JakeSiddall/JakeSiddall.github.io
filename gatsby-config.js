@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Jake Siddall's Blog`,
+    title: `Jake Siddall`,
     author: {
       name: `Jake Siddall`,
       summary: `who lives and works in Oakland, CA with his fiance and their two cats.`,
