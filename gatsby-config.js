@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `siddalljake`,
+      github: `JakeSiddall`,
     },
   },
   plugins: [
