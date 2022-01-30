@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/JakeSiddall.github.io",
   siteMetadata: {
     title: `Jake Siddall`,
     author: {
       name: `Jake Siddall`,
-      summary: `who lives and works in Oakland, CA with his fiance and their two cats.`,
+      summary: `who lives and works in Seattle.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,

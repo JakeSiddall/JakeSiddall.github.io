@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[682],{5518:function(t,e,a){"use strict";a.r(e);var l=a(7294),s=(a(5444),a(7198)),i=a(3751);e.default=function(t){var e,a=t.data,n=t.location,r=(null===(e=a.site.siteMetadata)||void 0===e?void 0:e.title)||"Title";return l.createElement(s.Z,{location:n,title:r},l.createElement(i.Z,{title:"All posts"}),l.createElement("p",null,"I'm a pisces"))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-ed62de2e780946fb7fe6.js.map
