@@ -44,8 +44,9 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          My name is <strong>Jake Siddall</strong> and I live in Oakland, CA with my fiancee
-          and our two cats. You should follow me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>, or 
+          My name is <strong>Jake Siddall</strong> and I live in Seattle. I have a fiancee who is completing a surgical 
+          fellowship in Nova Scotia. We have two cats (they live with her in Nova Scotia). 
+          You should follow me on <a href={`https://twitter.com/${social?.twitter || ``}`}>Twitter</a>, or 
           checkout my <a href={`https://github.com/JakeSiddall`}>Github</a>!
         </p>
       )}
