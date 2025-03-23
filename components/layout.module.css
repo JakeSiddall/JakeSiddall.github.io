@@ -1,0 +1,100 @@
+.darkMode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.lightMode {
+  background-color: #FFFEEB;
+  color: #333333;
+}
+
+.container {
+  max-width: 42rem;
+  padding: 2.5rem 1.25rem;
+  margin: 0 auto;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.headingMd {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #ff00ff;  /* Default color */
+}
+
+.darkMode .headingMd {
+  color: #d3d3d3;  /* Light gray to match heading in dark mode */
+}
+
+.darkMode .heading {
+  color: #d3d3d3;  /* Light gray for dark mode */
+  text-shadow: 2px 2px #000000;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav a {
+  color: #333;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.nav a:hover {
+  color: #005b99;
+  text-decoration: underline;
+}
+
+.darkMode .nav a {
+  color: #d3d3d3;  /* Light gray for dark mode */
+}
+
+.darkMode .nav a:hover {
+  color: #ffffff;  /* White on hover in dark mode */
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.footer {
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+  font-size: 0.833rem;
+}
+
+
+.themeToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1.5rem;  /* Makes the lightbulb emoji bigger */
+}
+
+.themeToggle:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}

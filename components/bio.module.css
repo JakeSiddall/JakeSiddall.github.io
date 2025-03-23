@@ -1,0 +1,15 @@
+.bio {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.bio p {
+  margin-bottom: 0;
+}
+
+.bioAvatar {
+  margin-right: 1rem;
+  margin-bottom: 0;
+  min-width: 50px;
+  border-radius: 100%;
+}
